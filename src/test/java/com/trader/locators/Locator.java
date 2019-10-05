@@ -16,7 +16,7 @@ public class Locator {
 	 */
 	public enum Login {
 		Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"), 
-		//		Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"),
+		//Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"),
 		JoinMYTrader_Link("//a[contains(@href,'/myt/join')]"), 
 		Login_Link("//*[text()='Log In']"), 
 		Login_Failed_Message("//section[@id='page-content-wrapper']//form/p[contains(text(),'Invalid username or password')]"), 
@@ -60,11 +60,12 @@ public class Locator {
 
 	/**
 	 * ======================================================================
-	 * Locators related to Hamburger menus
+	 * Locators related to Hamburger menus changed value
 	 * ======================================================================
 	 */
 	public enum Menus {
-		More_HamburgerButton("//div[@id='hamburgerButton']"), 
+		More_HamburgerButton("//div[@id='hamburgerButton']")    , 
+		//		More_HamburgerButton("//div[@id='hamburgerButton']"),
 		MyTrader_SignIn("//*[@id='sidebar-wrapper']//a[@data-track='Sidebar Nav - Sign In']"), 
 		SignOut_MyTrader("//*[@id='sidebar-wrapper']//a[@data-track='Sidebar Nav - Sign Out']"),
 		BUY("//*[@id='page-content-wrapper']//nav//a[contains(@href,'-for-sale')]"),
@@ -111,6 +112,7 @@ public class Locator {
 	 */
 	public enum MyTrader {
 		MyTrader_Message("//*[@id='nav-secondary']/following-sibling::div//*[contains(text(),'Welcome')]"),
+		//MyTrader_Message("//*[@id='nav-secondary']/following-sibling::div//*[contains(text(),'Welcome')]"),
 		Saved_Searches("(//*[@title='Saved Searches'])[1]"),
 		My_Listing_Page("//*[contains(text(),'Your Listings For Sale')]"),
 		Saved_Listing("(//*[@title='Saved Listings'])[1]"),

@@ -10,7 +10,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 
 import com.trader.locators.Locator;
 import com.trader.stringdata.Strings;
@@ -27,6 +26,7 @@ public class HomeHelper extends DriverHelper {
 
 	public HomeHelper(WebDriver driver) {
 		super(driver, getSoftAssert());
+		//super(driver, getSoftAssert());
 	}
 
 	/**
@@ -34,6 +34,7 @@ public class HomeHelper extends DriverHelper {
 	 */
 	public void clickOnPopularMakesTab() {
 		print("Click on Popular Makes tab");
+		//super(driver, getSoftAssert());
 		locator = Locator.Home.Popular_Makes.value;
 		clickOn(locator);
 	}

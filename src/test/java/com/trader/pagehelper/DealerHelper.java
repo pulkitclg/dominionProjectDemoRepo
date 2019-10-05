@@ -5,7 +5,6 @@ import java.awt.AWTException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 import com.trader.locators.Locator;
 import com.trader.stringdata.Strings;
@@ -16,6 +15,7 @@ public class DealerHelper extends DriverHelper {
 
 	public DealerHelper(WebDriver driver) {
 		super(driver, getSoftAssert());
+		//super(driver, getSoftAssert());
 	}
 
 	/**
@@ -24,6 +24,7 @@ public class DealerHelper extends DriverHelper {
 	public void assertFindMotorcycleDealersPage() {
 		print("Assert Find Motorcycle Dealers page.");
 		waitForElementPresentInDom(2);
+		//super(driver, getSoftAssert());
 		locator = Locator.Dealer.Find_Motorcyle_Dealer.value;
 		WaitForElementVisible(locator, 20);
 		Assert.assertTrue(isTextPresent(locator, Strings.PageName.Find_Motorcycle_Dealers.value),
