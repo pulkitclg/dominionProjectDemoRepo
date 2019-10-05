@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" verbose="1" name="RegressionTest"
+	annotations="JDK">
+	<test name="RegressionTest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.trader.scripts.cycletrader.HomePage" />
+			<class name="com.trader.scripts.cycletrader.LoginPage" />
+			<class name="com.trader.scripts.cycletrader.SignUpPage" />	
+			<class name="com.trader.scripts.cycletrader.SellYourMotorcyclePage" />
+			<class name="com.trader.scripts.cycletrader.AdvancedSearchPage" />
+			<class name="com.trader.scripts.cycletrader.DealersPage" />
+
+		</classes>
+	</test>
+</suite> 

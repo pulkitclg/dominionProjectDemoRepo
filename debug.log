@@ -1,0 +1,4 @@
+[1218/140824.230:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1218/140824.415:ERROR:exception_snapshot_win.cc(88)] thread ID 11160 not found in process
+[0114/135432.715:ERROR:file_io_win.cc(161)] CreateFile C:\Users\viveks\AppData\Local\Temp\scoped_dir8552_32551\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0121/155351.765:ERROR:file_io_win.cc(161)] CreateFile C:\Users\viveks\AppData\Local\Temp\scoped_dir1168_12236\Crashpad\settings.dat: The system cannot find the file specified. (0x2)

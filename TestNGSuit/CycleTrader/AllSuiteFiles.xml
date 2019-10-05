@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="AllSuiteFiles"
+	annotations="JDK">
+	
+	<suite-files>
+	    <suite-file path="AdvancedSearchPage.xml"></suite-file>
+	    <suite-file path="DealersPage.xml"></suite-file>
+	</suite-files>
+	
+</suite> 
