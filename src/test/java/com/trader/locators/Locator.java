@@ -16,7 +16,7 @@ public class Locator {
 	 */
 	public enum Login {
 		Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"), 
-		//Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"), 
+		//Email_Field("//section[@id='page-content-wrapper']//form/input[@name='username']"),
 		JoinMYTrader_Link("//a[contains(@href,'/myt/join')]"), 
 		Login_Link("//*[text()='Log In']"), 
 		Login_Failed_Message("//section[@id='page-content-wrapper']//form/p[contains(text(),'Invalid username or password')]"), 
